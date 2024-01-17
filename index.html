@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Jawwad</title>
+    <style>
+body{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+
+h1{
+    text-align: center;
+    text-transform: capitalize;   
+    color: antiquewhite;
+    text-shadow: -15px -15px 2px orangered;
+   
+}
+h1:hover{
+    color: orangered;
+}
+
+div{
+    background-color: #404040;
+    min-width: 150px;
+    width: 500px;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+td{
+    color: white;
+           
+}
+
+.input{
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-bottom: 10px;
+}
+.input:focus{
+    border: 0px;
+    border-bottom: 1px solid blue;
+    outline: 0px;
+    
+    
+}
+
+
+.submit{
+    color: black;
+    background-color: blue;
+    border-radius: 5px;
+    border: 0;
+    padding: 6px 10px ;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.submit:hover{
+    background-color: violet;
+}
+.cancel{
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: 0;
+    padding: 6px 10px;
+
+}
+.cancel:hover{
+    background-color: blueviolet;
+}
+p{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+
+
+
+    </style>
+</head>
+
+<body>
+    
+    <h1>Muhammad Jawwad</h1>
+    
+
+    <div>
+        <form action="get">
+        <table align="center">
+            
+
+                <tr>
+                    <td>
+                        <p>Name</p>
+                        <input class="input"  name="Name" required type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Email</p> 
+                        <input class="input" name="Email"  type="email" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Password</p>
+                        <input class="input" type="password" name="Password"  >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Number</p> 
+                        <input  class="input" name="ph" type="number"  required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Message</p> <br>
+                        <textarea  class="input" name="feed" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>   
+                <tr>
+                    <td>
+                        <input  class="submit" type="submit" value="SUBMIT">
+                        <input  class="cancel" type="reset" value="CANCEL">
+                    </td>
+                </tr>
+                
+            
+        </table>
+         </form>
+    </div>
+
+</body>
+</html>
